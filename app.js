@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    const pointTable = document.getElementById("gisTable").getElementsByTagName('tbody')[0];
+    const pointTable = document.getElementById("gisTable1").getElementsByTagName('tbody')[0];
 
     fetch("data.json") // Ganti "data.json" dengan nama file JSON Anda
         .then(response => response.json())
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    const pointTable = document.getElementById("gisTable").getElementsByTagName('tbody')[0];
+    const pointTable = document.getElementById("gisTable2").getElementsByTagName('tbody')[0];
 
     fetch("data.json") // Ganti "data.json" dengan nama file JSON Anda
         .then(response => response.json())
